@@ -1,0 +1,17 @@
+#Steps!
+#                       Part One!
+#1. Given a word check whether or not it equals a bad word done!
+#2. Given a list of lyrics, return whether or not they have certain banned words done!
+#2b. Lyrics in this case is defined as a list of strings 
+#            _______________________________________________________
+#                       Part Two!
+#1. Given lyrics and a list of bad words, return all the bad words within the lyrics (if applicable) done!
+#2. Create an acceptable list of lyrics
+#           ______________________________________________________
+#                       Part Three!
+#1. Add Genius Capability which fetches lyrics from a song and analyzes if it has unnacetable words
+#                       Part Four!
+#1. Add Spotify and Youtube capability 
+#2. Takes the song from spotify/youtube, fetches lyrics using part 3 and then produces if its acceptable
+#                       Part Five!
+#1. Make this work with playlists
