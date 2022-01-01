@@ -12,8 +12,7 @@ def get_lyrics(artist,title):
 def has_expletive(word,lyrics): #Very strong feeling that this
   if re.search(r'\b' + word + r'\b', lyrics):
     return True
-  return False
-  
+  return False 
 def expletives(lyrics):
     return(list((filter (lambda x: has_expletive(x,lyrics), banned))))
 

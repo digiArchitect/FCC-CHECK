@@ -6,8 +6,8 @@ def song():
   badWords = ", ".join(expletives(lyrics))
   if not badWords:
     return "This song is acceptable on the air waves"
-  
-  return f"Due to words {badWords} this song is unacceptable on the air waves"   
+
+  return f"Due to word(s) {badWords} this song is unacceptable on the air waves"   
    
 
 print (song())
