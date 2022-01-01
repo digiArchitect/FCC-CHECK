@@ -58,6 +58,14 @@ dev = ["sphinx (>=3.3,<4.0)", "sphinx-rtd-theme", "tox (>=3.2,<4.0)", "doc8", "f
 docs = ["sphinx (>=3.3,<4.0)", "sphinx-rtd-theme"]
 
 [[package]]
+name = "re101"
+version = "0.4.0"
+description = "A back-pocket regex cookbook"
+category = "main"
+optional = false
+python-versions = ">=3"
+
+[[package]]
 name = "requests"
 version = "2.26.0"
 description = "Python HTTP for Humans."
@@ -99,7 +107,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "f1a1af8c9b239adfe44537efaf3ea4f5c1556bf0438f9d4ebfc2c4139435b9f2"
+content-hash = "cf57a5812c10984e861bfad0ea21da972d0b2bf461cba0059444f6665b5ae95c"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -121,6 +129,10 @@ idna = [
 lyricsgenius = [
     {file = "lyricsgenius-3.0.1-py3-none-any.whl", hash = "sha256:145df7d79e6b6ebe7ff6da9ed08c0cb43b251bb88f859339224b20e3f8399b05"},
     {file = "lyricsgenius-3.0.1.tar.gz", hash = "sha256:83aef55ffca0b8ea69651c4b144693d1c012687a7da57f88d095b333f2e18928"},
+]
+re101 = [
+    {file = "re101-0.4.0-py3-none-any.whl", hash = "sha256:0616f3b40383d3386d25e58375cf6d86dd8592208e39ff8a744e3347f0733975"},
+    {file = "re101-0.4.0.tar.gz", hash = "sha256:53a133d21f37f1bf4b6218facce87f2f521a6450f9c7fd15dd7634874a011551"},
 ]
 requests = [
     {file = "requests-2.26.0-py2.py3-none-any.whl", hash = "sha256:6c1246513ecd5ecd4528a0906f910e8f0f9c6b8ec72030dc9fd154dc1a6efd24"},
