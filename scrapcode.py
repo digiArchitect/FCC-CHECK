@@ -17,6 +17,6 @@ def expletive(word):
 exWord1 = "hey" 
 exWord2 = "shit"
 # bad_word: String List-of Strings -> Boolean
+#going to git ignore this lol
 
 
-lyrics2 = "Hey I just met you and this is crazy bitch"
