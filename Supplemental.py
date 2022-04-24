@@ -3,9 +3,9 @@ import re
 from lyricsgenius import Genius
 import spotipy
 import spotipy.util as util
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
 # Loads unacceptable fcc words into variables
 with open('banned.txt') as f:
     banned = f.read().splitlines()
