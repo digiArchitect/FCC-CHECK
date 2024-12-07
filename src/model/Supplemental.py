@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Loads unacceptable fcc words into variables
-with open('banned.txt') as f:
+with open('../../banned.txt') as f:
     banned = f.read().splitlines()
 # Genius Properties:
 token = os.environ['token']

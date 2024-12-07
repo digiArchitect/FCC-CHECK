@@ -1,5 +1,8 @@
-from Supplemental import *
+from src.model.Supplemental import *
 import json
+def init():
+
+
 def main():
     print("Hello this is FCC Checker!")
     print("Would you like to check a song or a playlist?")
@@ -27,6 +30,7 @@ def song(track):
         return f"{title} by {artist} is unacceptable on the air waves due to word(s) {bad_words}"
     except:
         return f"Song is not in Genius Database"
+
 def playlist(plist):
     songs = get_tracks(plist)
     arr = []
